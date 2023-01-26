@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Super Mario Bros - O Filme</title>
+</head>
+
+<body>
+    <div class="background">
+        <video class="video" autoplay loop muted>
+            <source src="src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="header">
+        <a>
+            <img class="logo" src="src/img/logo-chapeu-mario.png" alt="Logo chapéu Mario">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="infos">
+            <img class="img-title" src="src/img/titulo.png" alt="Imagem do Título do filme">
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit fugiat, iste, quod
+                nisi itaque quos
+                cupiditate iusto quis illum, repellendus repellat eum ipsa pariatur accusamus unde deserunt corporis
+                voluptatum voluptate.</p>
+            <button class="button-trailer">Veja o trailer</button>
+        </div>
+        <img class="mario" src="src/img/super-mario-chars.png" />
+
+        <div class="modal">
+            <div class="container-modal">
+                <span class="close-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk"
+                    title="Trailer Oficial" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
